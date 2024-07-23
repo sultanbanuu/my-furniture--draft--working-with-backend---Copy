@@ -1,0 +1,52 @@
+h2 {
+  font-size: 7.2rem;
+  line-height: 8.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+/* swiper section */
+
+.swiper {
+  padding-bottom: 6rem;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "\01F86A";
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "\01F868";
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 1.6rem;
+  border-radius: 50%;
+
+  background-color: #b8926a;
+  color: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 86%;
+}
+
+.swiper-button-prev {
+  left: auto;
+  right: 6.6rem;
+}
+
+.swiper-scrollbar-drag {
+  background: #b8926a;
+}
